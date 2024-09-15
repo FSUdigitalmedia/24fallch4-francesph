@@ -22,7 +22,7 @@ function setup() {
 }
 
 function draw() {
-  background(110);
+  background(0);
 
   fill(255);
   ellipse(mouseX, mouseY, 80, 80);
@@ -45,4 +45,7 @@ function draw() {
       posY = posY - 1;
     }
   }
+
+  
+
 }
